@@ -1,0 +1,13 @@
+[package]
+name = "kvclient"
+version = "0.1.0"
+authors = ["周元辉"]
+edition = "2018"
+
+[dependencies]
+
+rand = "0.3.14"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+uuid = { version = "0.7", features = ["serde", "v4"] }
